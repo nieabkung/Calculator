@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--toolbar-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcalculator"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--content-->
+
+
+    <LinearLayout
+        android:layout_margin="60dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--icon-->
+
+        <ImageView
+            android:src="@drawable/ic_action_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--textview-->
+
+        <EditText
+            android:id="@+id/editmoney"
+            android:hint="Fill Money In USD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#c8000000"
+        android:layout_margin="50dp"
+        android:id="@+id/calcalatorbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exchange" />
+
+
+
+
+</LinearLayout>
+
+
+
